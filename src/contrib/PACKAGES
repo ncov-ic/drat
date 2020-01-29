@@ -1,0 +1,9 @@
+Package: orderly
+Version: 1.0.5
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: 3f1b4e812a8936344f3e95f6cfdc181d
+NeedsCompilation: no
