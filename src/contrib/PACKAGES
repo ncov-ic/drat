@@ -7,3 +7,11 @@ Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
 License: MIT + file LICENSE
 MD5sum: 3f1b4e812a8936344f3e95f6cfdc181d
 NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.3
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 974aa956b713b9c9a54c2fcc66a64c5e
+NeedsCompilation: no
