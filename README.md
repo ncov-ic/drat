@@ -1,9 +1,9 @@
-# drat repository for imperialebola2018
+# drat repository for ncov-ic
 
 ```
 # install.packages("drat")
-drat:::add("imperialebola2018")
-install.packages("montagu")
+drat:::add("ncov")
+install.packages("orderlyweb")
 ```
 
 ## to update packages
