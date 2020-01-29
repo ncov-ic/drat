@@ -15,3 +15,13 @@ Suggests: mockery, testthat
 License: MIT + file LICENSE
 MD5sum: 974aa956b713b9c9a54c2fcc66a64c5e
 NeedsCompilation: no
+
+Package: projections
+Version: 0.3.0
+Depends: R (>= 3.3.0)
+Imports: stats, utils, incidence, distcrete, ggplot2
+Suggests: testthat, vdiffr, roxygen2, knitr, rmarkdown, outbreaks,
+        magrittr
+License: MIT + file LICENSE
+MD5sum: d447cb2ab544ccd09176bf73d112e2dd
+NeedsCompilation: no
