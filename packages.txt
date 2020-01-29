@@ -1,0 +1,6 @@
+vimc/orderly@master
+vimc/orderlyweb
+
+# Science based packages
+reconhub/projections@release
+annecori/EpiEstim@release
