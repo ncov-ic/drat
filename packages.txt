@@ -1,4 +1,5 @@
 vimc/orderly@master
+vimc/vaultr@master
 vimc/orderlyweb
 
 # Science based packages
