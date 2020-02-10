@@ -36,3 +36,11 @@ Suggests: testthat, vdiffr, roxygen2, knitr, rmarkdown, outbreaks,
 License: MIT + file LICENSE
 MD5sum: d447cb2ab544ccd09176bf73d112e2dd
 NeedsCompilation: no
+
+Package: vaultr
+Version: 1.0.3
+Imports: R6, getPass, httr, jsonlite
+Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 6c545af53854a478ace6582e8d65313f
+NeedsCompilation: no
