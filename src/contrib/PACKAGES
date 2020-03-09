@@ -9,6 +9,14 @@ License: GPL (>= 2)
 MD5sum: a7e8adbf6635979a8af5763d3c00f67c
 NeedsCompilation: no
 
+Package: cyphr
+Version: 1.1.0
+Imports: getPass, openssl (>= 0.9.9), sodium
+Suggests: knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 8f4c90a49e0914b6da9c086bc03d1eab
+NeedsCompilation: no
+
 Package: orderly
 Version: 1.1.6
 Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
