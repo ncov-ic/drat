@@ -45,6 +45,14 @@ License: MIT + file LICENSE
 MD5sum: d447cb2ab544ccd09176bf73d112e2dd
 NeedsCompilation: no
 
+Package: sircovid
+Version: 0.1.3
+Imports: dde, odin, purrr, readxl, socialmixr, tidyr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 9f9f43de6b42629d2961982c438a763e
+NeedsCompilation: yes
+
 Package: vaultr
 Version: 1.0.4
 Imports: R6, getPass, httr, jsonlite
