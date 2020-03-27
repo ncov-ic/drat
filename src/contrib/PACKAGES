@@ -17,6 +17,15 @@ License: MIT + file LICENSE
 MD5sum: 8f4c90a49e0914b6da9c086bc03d1eab
 NeedsCompilation: no
 
+Package: dde
+Version: 1.0.2
+Depends: R (>= 3.1.0)
+LinkingTo: ring (>= 1.0.0)
+Suggests: deSolve, knitr, microbenchmark, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 0a6922cdd3a168de72d73a49440a9854
+NeedsCompilation: yes
+
 Package: orderly
 Version: 1.1.15
 Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
