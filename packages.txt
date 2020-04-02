@@ -5,5 +5,5 @@ vimc/orderlyweb
 # Science based packages
 reconhub/projections@release
 annecori/EpiEstim@release
-ncov-ic/sircovid
+mrc-ide/sircovid
 mrc-ide/dde
