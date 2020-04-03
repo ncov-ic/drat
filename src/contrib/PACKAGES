@@ -60,7 +60,7 @@ Depends: R (>= 3.5.0)
 Imports: dde (>= 1.0.2), odin, socialmixr, furrr
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: aab6737ad3f35c83df5c83e9c4eb5d51
+MD5sum: f85804247545833e337b3165808cdf8a
 NeedsCompilation: yes
 
 Package: vaultr
