@@ -7,3 +7,5 @@ reconhub/projections@release
 annecori/EpiEstim@release
 mrc-ide/sircovid
 mrc-ide/dde
+
+reside-ic/pointr
