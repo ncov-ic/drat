@@ -44,6 +44,15 @@ License: MIT + file LICENSE
 MD5sum: 3084a151a99feb6fb6f1e6368290b8d1
 NeedsCompilation: no
 
+Package: pointr
+Version: 0.0.3
+Depends: R (>= 3.5.0)
+Imports: getPass, glue, httr, xml2
+Suggests: mockery, testthat, withr
+License: MIT + file LICENSE
+MD5sum: d8f806a2ac4d0d7d3802f9d78b17d524
+NeedsCompilation: no
+
 Package: projections
 Version: 0.3.0
 Depends: R (>= 3.3.0)
