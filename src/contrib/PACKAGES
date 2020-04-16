@@ -26,6 +26,14 @@ License: MIT + file LICENSE
 MD5sum: 0a6922cdd3a168de72d73a49440a9854
 NeedsCompilation: yes
 
+Package: odin.js
+Version: 0.1.7
+Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 0.2.0)
+Suggests: cinterpolate, deSolve, testthat
+License: MIT + file LICENSE
+MD5sum: 6d0b391bfff811b6a127515bc612756a
+NeedsCompilation: no
+
 Package: orderly
 Version: 1.1.25
 Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
