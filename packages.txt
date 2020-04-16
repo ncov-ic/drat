@@ -5,7 +5,7 @@ vimc/orderlyweb
 # Science based packages
 reconhub/projections@release
 annecori/EpiEstim@release
-mrc-ide/sircovid@plot_new_hosp_model
+mrc-ide/sircovid
 mrc-ide/dde
 mrc-ide/squire
 mrc-ide/odin.js
