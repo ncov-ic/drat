@@ -8,5 +8,6 @@ annecori/EpiEstim@release
 mrc-ide/sircovid
 mrc-ide/dde
 mrc-ide/squire
+mrc-ide/odin.js
 
 reside-ic/pointr
