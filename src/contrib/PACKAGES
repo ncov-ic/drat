@@ -87,7 +87,7 @@ Imports: odin, dde, dplyr, tidyr, rlang, magrittr, purrr, crayon,
         methods, ggplot2
 Suggests: testthat (>= 2.1.0), covr, readxl
 License: MIT + file LICENSE
-MD5sum: 95645c54e820edaa1284d1a81bae3743
+MD5sum: 9c04ac52ccbaae5986c345e49f48dc68
 NeedsCompilation: yes
 
 Package: vaultr
