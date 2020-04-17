@@ -35,13 +35,13 @@ MD5sum: 6d0b391bfff811b6a127515bc612756a
 NeedsCompilation: no
 
 Package: orderly
-Version: 1.1.25
+Version: 1.1.26
 Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
         withr, yaml, zip (>= 2.0.0)
 Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
         testthat, vaultr (>= 1.0.4)
 License: MIT + file LICENSE
-MD5sum: ec8d422d06c491f2eea90dfe963a5a78
+MD5sum: 714b9046b2ec84050b4f39a2bb077281
 NeedsCompilation: no
 
 Package: orderlyweb
@@ -72,12 +72,12 @@ MD5sum: d447cb2ab544ccd09176bf73d112e2dd
 NeedsCompilation: no
 
 Package: sircovid
-Version: 0.2.16
+Version: 0.2.17
 Depends: R (>= 3.5.0)
 Imports: dde (>= 1.0.2), odin, socialmixr, furrr, coda
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 40d8bc0f08707eb87098a32ed188e676
+MD5sum: d39a071b1909b4375155c069f9c43f05
 NeedsCompilation: yes
 
 Package: squire
