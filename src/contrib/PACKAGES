@@ -41,7 +41,7 @@ Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
 Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
         testthat, vaultr (>= 1.0.4)
 License: MIT + file LICENSE
-MD5sum: 714b9046b2ec84050b4f39a2bb077281
+MD5sum: 939f9e549e88752910e7e42f9a3ef314
 NeedsCompilation: no
 
 Package: orderlyweb
