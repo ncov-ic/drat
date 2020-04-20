@@ -81,13 +81,13 @@ MD5sum: 001bfa0d8a637f0fa401374f726eaad3
 NeedsCompilation: yes
 
 Package: squire
-Version: 0.2.3
+Version: 0.3.0
 Depends: R (>= 3.1.0)
 Imports: odin, dde, dplyr, tidyr, rlang, magrittr, purrr, crayon,
         methods, ggplot2
 Suggests: testthat (>= 2.1.0), covr, readxl
 License: MIT + file LICENSE
-MD5sum: 9c04ac52ccbaae5986c345e49f48dc68
+MD5sum: 0279bfc4c2611d3dcd298b890e982041
 NeedsCompilation: yes
 
 Package: vaultr
