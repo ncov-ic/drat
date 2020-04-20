@@ -11,3 +11,4 @@ mrc-ide/squire
 mrc-ide/odin.js
 
 reside-ic/pointr
+richfitz/sowsear
