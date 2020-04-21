@@ -72,12 +72,12 @@ MD5sum: d447cb2ab544ccd09176bf73d112e2dd
 NeedsCompilation: no
 
 Package: sircovid
-Version: 0.2.19
+Version: 0.2.21
 Depends: R (>= 3.5.0)
-Imports: dde (>= 1.0.2), odin, socialmixr, furrr, coda
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, mvtnorm, coda
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 001bfa0d8a637f0fa401374f726eaad3
+MD5sum: 66bf934403b925adabc4b1e3de683d23
 NeedsCompilation: yes
 
 Package: sowsear
