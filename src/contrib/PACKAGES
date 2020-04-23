@@ -45,11 +45,11 @@ MD5sum: 92e7536bbda1cb491d1c431d8c2e27e1
 NeedsCompilation: no
 
 Package: orderlyweb
-Version: 0.1.5
+Version: 0.1.6
 Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
 Suggests: mockery, testthat
 License: MIT + file LICENSE
-MD5sum: 4df4e7036751b21a1561dc15b5390f43
+MD5sum: 5922733fe8b2fe24a0321c0fcf5c7009
 NeedsCompilation: no
 
 Package: pointr
