@@ -26,6 +26,14 @@ License: MIT + file LICENSE
 MD5sum: 0a6922cdd3a168de72d73a49440a9854
 NeedsCompilation: yes
 
+Package: fstorr
+Version: 0.1.0
+Imports: R6, openssl, thor
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 914c829c3c2f2740b25bb044ca3edda1
+NeedsCompilation: no
+
 Package: odin.js
 Version: 0.1.7
 Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 0.2.0)
