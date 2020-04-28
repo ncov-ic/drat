@@ -13,3 +13,4 @@ mrc-ide/odin.js
 reside-ic/pointr
 richfitz/sowsear
 mrc-ide/pika
+reside-ic/fstorr
