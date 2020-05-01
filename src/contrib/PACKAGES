@@ -71,12 +71,12 @@ MD5sum: 7669cf9f85eb98a1f6316590495b0997
 NeedsCompilation: no
 
 Package: pointr
-Version: 0.1.1
+Version: 0.1.3
 Depends: R (>= 3.5.0)
 Imports: getPass, glue, httr, jsonlite, tools, xml2
 Suggests: mockery, testthat, tibble, withr
 License: MIT + file LICENSE
-MD5sum: 6b087fbd3886111e3f91215b3145f620
+MD5sum: fcf9d33a9e006cc0239e4f55a2855442
 NeedsCompilation: no
 
 Package: projections
