@@ -96,7 +96,7 @@ Imports: dde (>= 1.0.2), odin, socialmixr, furrr, mvtnorm, coda,
         extraDistr, viridis
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 83f2dc458ccfded1577a9cbf9f175816
+MD5sum: 727d2e6424e4e363492c4377f4976460
 NeedsCompilation: yes
 
 Package: sowsear
