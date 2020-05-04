@@ -67,7 +67,7 @@ Imports: EpiEstim, RColorBrewer, TTR, dplyr, ggplot2, purrr, scales,
         stats, tidyr
 Suggests: knitr, testthat (>= 2.1.0)
 License: MIT + file LICENSE
-MD5sum: 1a2ac6f292eda6629018c49cca4e466e
+MD5sum: ae545c8c93467e70ac29cd699d872974
 NeedsCompilation: no
 
 Package: pointr
