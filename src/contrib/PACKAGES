@@ -51,6 +51,14 @@ License: MIT + file LICENSE
 MD5sum: f9f89a3c34701de331c8b61ae9866a83
 NeedsCompilation: no
 
+Package: orderly.sharepoint
+Version: 0.1.0
+Imports: orderly (>= 1.1.32), pointr (>= 0.1.4), zip
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 9c4f2ee926f2f556345d7bb1074c0f99
+NeedsCompilation: no
+
 Package: orderly
 Version: 1.1.32
 Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
