@@ -1,6 +1,7 @@
 vimc/orderly@master
 vimc/vaultr@master
 vimc/orderlyweb
+vimc/orderly.rstudio
 
 # Science based packages
 reconhub/projections@release
