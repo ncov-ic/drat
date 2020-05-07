@@ -39,7 +39,7 @@ Version: 0.1.8
 Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 0.2.0)
 Suggests: cinterpolate, deSolve, testthat
 License: MIT + file LICENSE
-MD5sum: 60585f3c8a4867dc4eff12a074854f64
+MD5sum: eab54b5825fba368d9a5ccb88187ae5e
 NeedsCompilation: no
 
 Package: orderly.rstudio
