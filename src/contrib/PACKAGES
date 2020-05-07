@@ -34,6 +34,15 @@ License: MIT + file LICENSE
 MD5sum: 914c829c3c2f2740b25bb044ca3edda1
 NeedsCompilation: no
 
+Package: hermione
+Version: 0.0.1
+Depends: R (>= 3.5.0)
+Imports: epitrix
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: d9cb79b4aa8ff9bc6e07b53b5c3b8d6f
+NeedsCompilation: no
+
 Package: odin.js
 Version: 0.1.8
 Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 0.2.0)
