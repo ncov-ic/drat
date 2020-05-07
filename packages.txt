@@ -16,3 +16,5 @@ reside-ic/pointr
 richfitz/sowsear
 mrc-ide/pika
 reside-ic/fstorr
+
+mrc-ide/hermione
