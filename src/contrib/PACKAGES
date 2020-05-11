@@ -57,7 +57,7 @@ Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
         0.5), shiny (>= 0.13),
 Suggests: rmarkdown, testthat, withr
 License: MIT + file LICENSE
-MD5sum: f9f89a3c34701de331c8b61ae9866a83
+MD5sum: 18b4969d4efccb6dfb6a69ad8bda9a03
 NeedsCompilation: no
 
 Package: orderly.sharepoint
