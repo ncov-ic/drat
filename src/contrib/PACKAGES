@@ -87,13 +87,13 @@ MD5sum: 2acd36ac4e234f8f138ce3623aa3201a
 NeedsCompilation: no
 
 Package: pika
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.0.0)
 Imports: EpiEstim, RColorBrewer, TTR, dplyr, ggplot2, purrr, scales,
         stats, tidyr
-Suggests: knitr, testthat (>= 2.1.0)
+Suggests: knitr, snakecase, testthat (>= 2.1.0)
 License: MIT + file LICENSE
-MD5sum: ae545c8c93467e70ac29cd699d872974
+MD5sum: 1e156f9e5efc0e863fe35bcb311357c4
 NeedsCompilation: no
 
 Package: pointr
