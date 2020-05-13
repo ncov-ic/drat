@@ -139,7 +139,7 @@ Imports: odin, odin.js, dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
         magrittr, purrr, crayon, methods, ggplot2
 Suggests: testthat (>= 2.1.0), covr, readxl, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 8cc625e6faaba83d625c51ad3bba1dc4
+MD5sum: 5841c7ed8ca53b4d2927fc4a4c40b617
 NeedsCompilation: yes
 
 Package: vaultr
