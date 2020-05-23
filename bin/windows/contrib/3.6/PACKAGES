@@ -1,3 +1,11 @@
+Package: dde
+Version: 1.0.2
+Depends: R (>= 3.1.0)
+LinkingTo: ring (>= 1.0.0)
+Suggests: deSolve, knitr, microbenchmark, rmarkdown, testthat
+License: MIT + file LICENSE
+Archs: i386, x64
+
 Package: sircovid
 Version: 0.3.0
 Depends: R (>= 3.5.0)
