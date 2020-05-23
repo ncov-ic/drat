@@ -1,0 +1,8 @@
+Package: sircovid
+Version: 0.3.0
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+Archs: i386, x64
