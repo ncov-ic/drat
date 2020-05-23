@@ -4,7 +4,6 @@ vimc/orderlyweb
 vimc/orderly.rstudio
 vimc/orderly.sharepoint
 
-# Science based packages
 reconhub/projections@release
 annecori/EpiEstim@release
 mrc-ide/sircovid
