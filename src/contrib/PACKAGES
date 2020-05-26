@@ -126,13 +126,13 @@ MD5sum: d447cb2ab544ccd09176bf73d112e2dd
 NeedsCompilation: no
 
 Package: sircovid
-Version: 0.3.2
+Version: 0.3.3
 Depends: R (>= 3.5.0)
 Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
         extraDistr, viridis, lubridate
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 719148c9ce6dc8401995ec1dbaa08555
+MD5sum: 523e66fcc2b98c57d7f300697f3daa03
 NeedsCompilation: yes
 
 Package: sowsear
