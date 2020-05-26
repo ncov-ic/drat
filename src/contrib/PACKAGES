@@ -52,12 +52,12 @@ MD5sum: eab54b5825fba368d9a5ccb88187ae5e
 NeedsCompilation: no
 
 Package: orderly.rstudio
-Version: 0.0.1
+Version: 0.0.2
 Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
         0.5), shiny (>= 0.13),
 Suggests: rmarkdown, testthat, withr
 License: MIT + file LICENSE
-MD5sum: 18b4969d4efccb6dfb6a69ad8bda9a03
+MD5sum: 5f1a10cce1da96b57a0b0c3233dad160
 NeedsCompilation: no
 
 Package: orderly.sharepoint
