@@ -10,6 +10,7 @@ mrc-ide/sircovid
 mrc-ide/dde
 mrc-ide/squire
 mrc-ide/odin.js
+mrc-ide/odin
 
 reside-ic/pointr
 richfitz/sowsear
