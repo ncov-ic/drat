@@ -35,12 +35,12 @@ MD5sum: 914c829c3c2f2740b25bb044ca3edda1
 NeedsCompilation: no
 
 Package: hermione
-Version: 0.0.3
+Version: 0.0.4
 Depends: R (>= 3.5.0)
 Imports: epitrix
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 61dc6dfd956a23b6b2964df9d7dd78c3
+MD5sum: 740970d81365bd6b24a53fd447f20c6a
 NeedsCompilation: no
 
 Package: odin.js
