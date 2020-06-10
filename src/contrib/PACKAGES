@@ -71,11 +71,11 @@ MD5sum: 5f1a10cce1da96b57a0b0c3233dad160
 NeedsCompilation: no
 
 Package: orderly.sharepoint
-Version: 0.1.0
+Version: 0.1.1
 Imports: orderly (>= 1.1.32), pointr (>= 0.1.4), zip
 Suggests: mockery, testthat
 License: MIT + file LICENSE
-MD5sum: 9c4f2ee926f2f556345d7bb1074c0f99
+MD5sum: 660add3752966810e943c0280b427ba8
 NeedsCompilation: no
 
 Package: orderly
