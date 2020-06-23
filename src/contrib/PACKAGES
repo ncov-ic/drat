@@ -58,7 +58,7 @@ Imports: R6, cinterpolate (>= 1.0.0), crayon, deSolve, digest,
 Suggests: dde (>= 1.0.0), jsonvalidate (>= 1.1.0), knitr, rmarkdown,
         testthat
 License: MIT + file LICENSE
-MD5sum: 90869b4f46896e7303f6e573c4a83f71
+MD5sum: 267870eaff1d9e992768e8af6d474d40
 NeedsCompilation: no
 
 Package: orderly.rstudio
