@@ -52,13 +52,13 @@ MD5sum: eab54b5825fba368d9a5ccb88187ae5e
 NeedsCompilation: no
 
 Package: odin
-Version: 1.0.4
+Version: 1.0.5
 Imports: R6, cinterpolate (>= 1.0.0), crayon, deSolve, digest,
         jsonlite, ring
 Suggests: dde (>= 1.0.0), jsonvalidate (>= 1.1.0), knitr, rmarkdown,
         testthat
 License: MIT + file LICENSE
-MD5sum: 267870eaff1d9e992768e8af6d474d40
+MD5sum: c9728241f28be0fb2b29d3491363dffe
 NeedsCompilation: no
 
 Package: orderly.rstudio
