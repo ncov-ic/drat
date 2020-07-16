@@ -143,14 +143,14 @@ MD5sum: de646d34496356bea87dc324072a9bf6
 NeedsCompilation: no
 
 Package: squire
-Version: 0.4.27
+Version: 0.4.28
 Depends: R (>= 3.1.0)
 Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
         magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
         mvtnorm
 Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
 License: MIT + file LICENSE
-MD5sum: b324258008a7b2474ab8befd2eea27d2
+MD5sum: 5c240ab0196a65b4ddd0957b651471a5
 NeedsCompilation: yes
 
 Package: vaultr
