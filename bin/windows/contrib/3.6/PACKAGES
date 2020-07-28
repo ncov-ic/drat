@@ -7,10 +7,10 @@ License: MIT + file LICENSE
 Archs: i386, x64
 
 Package: sircovid
-Version: 0.3.10
+Version: 0.3.13
 Depends: R (>= 3.5.0)
-Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
-        extraDistr, viridis, lubridate
+Imports: cinterpolate, dde (>= 1.0.2), odin, socialmixr, purrr, furrr,
+        mvtnorm, coda, extraDistr, viridis, lubridate
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
 Archs: i386, x64
