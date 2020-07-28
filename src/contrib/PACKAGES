@@ -40,7 +40,7 @@ Depends: R (>= 3.5.0)
 Imports: epitrix
 Suggests: testthat, knitr, rmarkdown, covr
 License: MIT + file LICENSE
-MD5sum: f44c56446f91a604e5099df9dbff0fe7
+MD5sum: 543297e29fa6868fb23ca54f77075997
 NeedsCompilation: no
 
 Package: odin.js
