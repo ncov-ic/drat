@@ -18,4 +18,4 @@ mrc-ide/pika
 reside-ic/fstorr
 
 mrc-ide/hermione
-ImperialCollegeLondon/epidemia
+ImperialCollegeLondon/epidemia@6e5c800
