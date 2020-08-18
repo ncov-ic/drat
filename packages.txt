@@ -19,3 +19,8 @@ reside-ic/fstorr
 
 mrc-ide/hermione
 ImperialCollegeLondon/epidemia@6e5c800
+
+mrc-ide/dust
+mrc-ide/mcstate
+mrc-ide/odin.dust
+mrc-ide/sircovid2
