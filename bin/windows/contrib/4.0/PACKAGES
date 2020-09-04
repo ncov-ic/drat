@@ -1,0 +1,17 @@
+Package: dust
+Version: 0.4.11
+Imports: R6, cpp11 (>= 0.2.1), glue, pkgbuild, withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, pkgload, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: sircovid2
+Version: 0.5.17
+Depends: R (>= 3.1.0)
+Imports: mcstate (>= 0.2.7), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.4.9)
+Suggests: testthat
+License: MIT + file LICENSE
+Archs: i386, x64
