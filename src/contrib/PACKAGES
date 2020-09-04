@@ -1,14 +1,3 @@
-Package: EpiEstim
-Version: 2.1-0
-Depends: R (>= 2.10)
-Imports: coarseDataTools, stats, graphics, reshape2, ggplot2, plyr,
-        grid, gridExtra, plotly, fitdistrplus, coda, incidence, scales,
-        grDevices, knitr
-Suggests: testthat, compare, utils
-License: GPL (>= 2)
-MD5sum: a7e8adbf6635979a8af5763d3c00f67c
-NeedsCompilation: no
-
 Package: cyphr
 Version: 1.1.0
 Imports: getPass, openssl (>= 0.9.9), sodium
@@ -24,6 +13,26 @@ LinkingTo: ring (>= 1.0.0)
 Suggests: deSolve, knitr, microbenchmark, rmarkdown, testthat
 License: MIT + file LICENSE
 MD5sum: 0a6922cdd3a168de72d73a49440a9854
+NeedsCompilation: yes
+
+Package: dust
+Version: 0.4.11
+Imports: R6, cpp11 (>= 0.2.1), glue, pkgbuild, withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, pkgload, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+MD5sum: 4125113cd09183fa7a1d961046389773
+NeedsCompilation: yes
+
+Package: dust
+Version: 0.4.6
+Imports: R6, cpp11 (>= 0.2.1), glue, pkgbuild, withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, pkgload, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+MD5sum: 7595c188d99ecaad19fcd6dc64d11a0f
 NeedsCompilation: yes
 
 Package: dust
@@ -50,12 +59,68 @@ License: GPL-3
 MD5sum: 5afc54759d2ae040c2e38a191fac39b3
 NeedsCompilation: yes
 
+Package: EpiEstim
+Version: 2.1-0
+Depends: R (>= 2.10)
+Imports: coarseDataTools, stats, graphics, reshape2, ggplot2, plyr,
+        grid, gridExtra, plotly, fitdistrplus, coda, incidence, scales,
+        grDevices, knitr
+Suggests: testthat, compare, utils
+License: GPL (>= 2)
+MD5sum: a7e8adbf6635979a8af5763d3c00f67c
+NeedsCompilation: no
+
 Package: fstorr
 Version: 0.1.0
 Imports: R6, openssl, thor
 Suggests: testthat
 License: MIT + file LICENSE
 MD5sum: 914c829c3c2f2740b25bb044ca3edda1
+NeedsCompilation: no
+
+Package: hermione
+Version: 0.0.1
+Depends: R (>= 3.5.0)
+Imports: epitrix
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: d9cb79b4aa8ff9bc6e07b53b5c3b8d6f
+NeedsCompilation: no
+
+Package: hermione
+Version: 0.0.2
+Depends: R (>= 3.5.0)
+Imports: epitrix
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: a6c75af7f9456c83ade93c5913f2f183
+NeedsCompilation: no
+
+Package: hermione
+Version: 0.0.3
+Depends: R (>= 3.5.0)
+Imports: epitrix
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 61dc6dfd956a23b6b2964df9d7dd78c3
+NeedsCompilation: no
+
+Package: hermione
+Version: 0.0.4
+Depends: R (>= 3.5.0)
+Imports: epitrix
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 66fe970aa41c4caa65024fe9828fd3ba
+NeedsCompilation: no
+
+Package: hermione
+Version: 0.0.9
+Depends: R (>= 3.5.0)
+Imports: epitrix
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 6679b4cce415afe6b7c300a096b4e2bb
 NeedsCompilation: no
 
 Package: hermione
@@ -76,6 +141,32 @@ License: MIT + file LICENSE
 MD5sum: 8a33bb1bedb8e64d337bffa34c3a9f4b
 NeedsCompilation: no
 
+Package: mcstate
+Version: 0.2.5
+Imports: R6, dust (>= 0.4.6), progress
+Suggests: brio, coda, decor, mvtnorm, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+MD5sum: 479ad5957ff0e36f4d6f4a64642bf876
+NeedsCompilation: no
+
+Package: mcstate
+Version: 0.2.7
+Imports: R6, dust (>= 0.4.6), progress
+Suggests: brio, coda, decor, mockery, mvtnorm, testthat, tibble, vctrs,
+        withr
+License: MIT + file LICENSE
+MD5sum: 2134fefe1e03479af51d5cb1b08cc919
+NeedsCompilation: no
+
+Package: mcstate
+Version: 0.2.9
+Imports: R6, dust (>= 0.4.6), progress (>= 1.2.0)
+Suggests: brio, coda, decor, mockery, mvtnorm, testthat, tibble, vctrs,
+        withr
+License: MIT + file LICENSE
+MD5sum: 0d0eea356dff2844148ff9d28a6dd3a2
+NeedsCompilation: no
+
 Package: odin.dust
 Version: 0.0.9
 Imports: R6, dust (>= 0.4.1), odin
@@ -86,11 +177,49 @@ MD5sum: cf0886ddb41584ce74374b651cb2d4c7
 NeedsCompilation: no
 
 Package: odin.js
+Version: 0.1.7
+Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 0.2.0)
+Suggests: cinterpolate, deSolve, testthat
+License: MIT + file LICENSE
+MD5sum: 6d0b391bfff811b6a127515bc612756a
+NeedsCompilation: no
+
+Package: odin.js
 Version: 0.1.8
 Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 0.2.0)
 Suggests: cinterpolate, deSolve, testthat
 License: MIT + file LICENSE
 MD5sum: eab54b5825fba368d9a5ccb88187ae5e
+NeedsCompilation: no
+
+Package: odin
+Version: 1.0.3
+Imports: R6, cinterpolate (>= 1.0.0), crayon, deSolve, digest,
+        jsonlite, ring
+Suggests: dde (>= 1.0.0), jsonvalidate (>= 1.1.0), knitr, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+MD5sum: 0e862d488e55bcf95922be9fdbcdcad5
+NeedsCompilation: no
+
+Package: odin
+Version: 1.0.4
+Imports: R6, cinterpolate (>= 1.0.0), crayon, deSolve, digest,
+        jsonlite, ring
+Suggests: dde (>= 1.0.0), jsonvalidate (>= 1.1.0), knitr, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+MD5sum: 267870eaff1d9e992768e8af6d474d40
+NeedsCompilation: no
+
+Package: odin
+Version: 1.0.5
+Imports: R6, cinterpolate (>= 1.0.0), crayon, deSolve, digest,
+        jsonlite, ring
+Suggests: dde (>= 1.0.0), jsonvalidate (>= 1.1.0), knitr, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+MD5sum: c9728241f28be0fb2b29d3491363dffe
 NeedsCompilation: no
 
 Package: odin
@@ -104,6 +233,15 @@ MD5sum: cc8dea58abce20c38fa0f930c5e1518d
 NeedsCompilation: no
 
 Package: orderly.rstudio
+Version: 0.0.1
+Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
+        0.5), shiny (>= 0.13),
+Suggests: rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 18b4969d4efccb6dfb6a69ad8bda9a03
+NeedsCompilation: no
+
+Package: orderly.rstudio
 Version: 0.0.2
 Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
         0.5), shiny (>= 0.13),
@@ -113,11 +251,349 @@ MD5sum: 5f1a10cce1da96b57a0b0c3233dad160
 NeedsCompilation: no
 
 Package: orderly.sharepoint
+Version: 0.1.0
+Imports: orderly (>= 1.1.32), pointr (>= 0.1.4), zip
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 9c4f2ee926f2f556345d7bb1074c0f99
+NeedsCompilation: no
+
+Package: orderly.sharepoint
 Version: 0.1.1
 Imports: orderly (>= 1.1.32), pointr (>= 0.1.4), zip
 Suggests: mockery, testthat
 License: MIT + file LICENSE
 MD5sum: 660add3752966810e943c0280b427ba8
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.10
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: af149bb220b6040389aed4d3ef43ced1
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.12
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 010c7581d48a780e9bbc80241adda501
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.5
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: 3f1b4e812a8936344f3e95f6cfdc181d
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.8
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 5d64b89d94310b2126a9aa2590eb2c78
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.9
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 42fa488825db9ed547c9af180beb2826
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.0
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 141769741f401e31efa1619d71c86475
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.13
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 846b1017463658a4cf3ae99e724525ea
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.15
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 97cdbf7f77563dc81e704089ee41e1f2
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.16
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 9a315a7369011f94aff57e2c2a26d0bd
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.17
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 4529be1349b52b907428a69f5b9f92e5
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.18
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 574d1604fbda50632f3a4b9ee5d7a08a
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.2
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: ba88ba1cf1d2d36a6cc942de7f1e8c63
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.20
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 770b03c06d1d1168eacf1da9405a6ab6
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.21
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: dd5164a3a27c55030d7e8f3e7f48bf4d
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.22
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 748e777cf3baad3cd4226dc498e184ce
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.24
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 9c3355cb774769d0b397a7d59be4050a
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.25
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: ec8d422d06c491f2eea90dfe963a5a78
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.26
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 939f9e549e88752910e7e42f9a3ef314
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.27
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: c30af4fa44e6aec4d09de0a2aeaa6ac9
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.28
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 8b61b4241958cc51ba3452896c98a444
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.29
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 92e7536bbda1cb491d1c431d8c2e27e1
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.31
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 134a01d91358a49f42e004c2603d6d05
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.32
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 54724062f8e19ba845ee5b0835e95734
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.35
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 58d3c3481df61ad0a128ea4643a68fa0
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.36
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 0efd7528bbdb1f43250609a21b75792f
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.6
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: fa08aeea83b3122cf0ea3214d9ca13dd
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.7
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: e16ce3a62f2b1fbe1891158d43ce6081
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.0
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: d472c745a42625342b24c9db386290d7
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.1
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: c3bae58aafe0c0db9d7ad5aa466711c1
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.10
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 45b1532862bee9031b3aaf04e281f8f1
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.11
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 1a17579edd339bd6d31bea828f5ba8d1
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.12
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 1bd5437b12c40915fb8d7372d0247e18
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.13
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 805b532ccc366e621314acd8236d2a12
 NeedsCompilation: no
 
 Package: orderly
@@ -130,12 +606,122 @@ License: MIT + file LICENSE
 MD5sum: 846780320d752b435bec526507fc4463
 NeedsCompilation: no
 
+Package: orderly
+Version: 1.2.3
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: f895efccacf40e8d373abfb94a80e8b0
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.4
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: bf429ab38207aefd1e2ca621f00e5c4a
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.5
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 2921ba38c571acc930b95d3315dd5a27
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.6
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: b54cdba9f65bb58a67169710d4ed42bf
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.8
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: e76ee8b299b7c7708cc8b43b01c55c5f
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.3
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 974aa956b713b9c9a54c2fcc66a64c5e
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.4
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 3084a151a99feb6fb6f1e6368290b8d1
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.5
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 4df4e7036751b21a1561dc15b5390f43
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.6
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 5922733fe8b2fe24a0321c0fcf5c7009
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.7
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 1441b10e092d35f523315bacf2d2ddc0
+NeedsCompilation: no
+
 Package: orderlyweb
 Version: 0.1.8
 Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
 Suggests: mockery, testthat
 License: MIT + file LICENSE
 MD5sum: 2acd36ac4e234f8f138ce3623aa3201a
+NeedsCompilation: no
+
+Package: pika
+Version: 0.0.0.9000
+Depends: R (>= 3.0.0)
+Imports: EpiEstim, RColorBrewer, TTR, dplyr, ggplot2, purrr, scales,
+        stats, tidyr
+Suggests: knitr, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+MD5sum: 7669cf9f85eb98a1f6316590495b0997
+NeedsCompilation: no
+
+Package: pika
+Version: 0.1.0
+Depends: R (>= 3.0.0)
+Imports: EpiEstim, RColorBrewer, TTR, dplyr, ggplot2, purrr, scales,
+        stats, tidyr
+Suggests: knitr, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+MD5sum: ae545c8c93467e70ac29cd699d872974
 NeedsCompilation: no
 
 Package: pika
@@ -146,6 +732,51 @@ Imports: EpiEstim, RColorBrewer, TTR, dplyr, ggplot2, purrr, scales,
 Suggests: knitr, snakecase, testthat (>= 2.1.0)
 License: MIT + file LICENSE
 MD5sum: 1e156f9e5efc0e863fe35bcb311357c4
+NeedsCompilation: no
+
+Package: pointr
+Version: 0.0.3
+Depends: R (>= 3.5.0)
+Imports: getPass, glue, httr, xml2
+Suggests: mockery, testthat, withr
+License: MIT + file LICENSE
+MD5sum: d8f806a2ac4d0d7d3802f9d78b17d524
+NeedsCompilation: no
+
+Package: pointr
+Version: 0.0.4
+Depends: R (>= 3.5.0)
+Imports: getPass, glue, httr, tools, xml2
+Suggests: mockery, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 1d17200f3ca0538b89f492a4c8d6e205
+NeedsCompilation: no
+
+Package: pointr
+Version: 0.1.0
+Depends: R (>= 3.5.0)
+Imports: getPass, glue, httr, jsonlite, tools, xml2
+Suggests: mockery, testthat, tibble, withr
+License: MIT + file LICENSE
+MD5sum: 92244166953456c63ed5f867434cf479
+NeedsCompilation: no
+
+Package: pointr
+Version: 0.1.1
+Depends: R (>= 3.5.0)
+Imports: getPass, glue, httr, jsonlite, tools, xml2
+Suggests: mockery, testthat, tibble, withr
+License: MIT + file LICENSE
+MD5sum: 6b087fbd3886111e3f91215b3145f620
+NeedsCompilation: no
+
+Package: pointr
+Version: 0.1.3
+Depends: R (>= 3.5.0)
+Imports: getPass, glue, httr, jsonlite, tools, xml2
+Suggests: mockery, testthat, tibble, withr
+License: MIT + file LICENSE
+MD5sum: fcf9d33a9e006cc0239e4f55a2855442
 NeedsCompilation: no
 
 Package: pointr
@@ -167,14 +798,286 @@ License: MIT + file LICENSE
 MD5sum: d447cb2ab544ccd09176bf73d112e2dd
 NeedsCompilation: no
 
-Package: sircovid2
-Version: 0.5.16
-Depends: R (>= 3.1.0)
-Imports: mcstate (>= 0.2.7), socialmixr
-LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.4.9)
+Package: sircovid
+Version: 0.1.3
+Imports: dde, odin, purrr, readxl, socialmixr, tidyr
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: af443e5aacafe0385041c7db59f9b8a4
+MD5sum: 9f9f43de6b42629d2961982c438a763e
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.0
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 187dceb1c6cde0d0d43ca004d3aff591
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.1
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: f85804247545833e337b3165808cdf8a
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.10
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 3b777bbf839fb7cf8a7c317181680dbd
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.12
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, coda
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 2d68ead6abf77d00f5166defb9282733
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.13
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, coda
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 1f05ded353e389fcd4062df6feac5aad
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.14
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, coda
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 88e7b9728c1342573efc57733342daa3
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.15
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, coda
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 0e1acb9a72ef4a9632be9aaa632b640b
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.16
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, coda
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 40d8bc0f08707eb87098a32ed188e676
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.17
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, coda
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: d39a071b1909b4375155c069f9c43f05
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.19
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, coda
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 001bfa0d8a637f0fa401374f726eaad3
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.2
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: de5a2e9463952bd1ff7c0c8c3af978d1
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.21
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, mvtnorm, coda
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 66bf934403b925adabc4b1e3de683d23
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.24
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, mvtnorm, coda,
+        extraDistr
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: e113456bc4455731d9502f49fd93a1bf
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.25
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, mvtnorm, coda,
+        extraDistr, viridis
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 727d2e6424e4e363492c4377f4976460
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.26
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr, mvtnorm, coda,
+        extraDistr, viridis
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 2cd7ebd52ef49277deca96e6e5eac048
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.27
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 3b90e911c65b6d167a4f1a83aca9c302
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.30
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: b6f77f5d2eff4543ed1d047ee203c226
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.31
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 2eba2fd2b118c522e8262a981f5cea07
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.32
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: ee5f24e7582ef3b0919f6841943e798a
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.33
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 01f38aedfaca17358072c3a0201f5d01
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.34
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: e8b24b6fe0410079a15ba4592ecaaf28
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.35
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 5dda6cb6f1c1494ab5d590ed84ba58eb
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.36
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: f03f0978ff820a33e748de3369602b56
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.4
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: e4778d540d75eb6a021d70f4165be819
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.7
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 9c5a0d6e9353de8a0eb3d71cc3bfda4e
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.8
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 2853cc755bac11e783a908337f00c3e0
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.2.9
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, furrr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 8ddbd00ad47d0d823a1ad298f21d321a
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.3.0
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 089b4c23322a7a6073672c6306fbdf5d
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.3.1
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: a6dd9e0c96f229186feafd8d63c8aa15
 NeedsCompilation: yes
 
 Package: sircovid
@@ -187,12 +1090,408 @@ License: MIT + file LICENSE
 MD5sum: 8a20e43ab3bef97aa1e834f9dfef3464
 NeedsCompilation: yes
 
+Package: sircovid
+Version: 0.3.2
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 719148c9ce6dc8401995ec1dbaa08555
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.3.3
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 523e66fcc2b98c57d7f300697f3daa03
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.3.4
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 9c7e411b1544f0d950ceac9c644a1ef9
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.3.5
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: a8fddc43c842c8223ca805eed403fa45
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.3.6
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 62adcd5181363dbf507cfffc0e409318
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.3.7
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 1ea77a3770daf3e9adefbf2c1c2abb7c
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.3.8
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 5214a159eebdcd1a5988ba8dcf3b8c0b
+NeedsCompilation: yes
+
+Package: sircovid
+Version: 0.3.9
+Depends: R (>= 3.5.0)
+Imports: dde (>= 1.0.2), odin, socialmixr, purrr, furrr, mvtnorm, coda,
+        extraDistr, viridis, lubridate
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 653e9ace5bfc7f69b2bb76b727209bb5
+NeedsCompilation: yes
+
+Package: sircovid2
+Version: 0.5.11
+Depends: R (>= 3.1.0)
+Imports: mcstate (>= 0.2.7), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.4.9)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 6e208fbc52c96f362e44fe1b126d472d
+NeedsCompilation: yes
+
+Package: sircovid2
+Version: 0.5.12
+Depends: R (>= 3.1.0)
+Imports: mcstate (>= 0.2.7), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.4.9)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 8b4189e77fd2b142a93caddefdc0b829
+NeedsCompilation: yes
+
+Package: sircovid2
+Version: 0.5.14
+Depends: R (>= 3.1.0)
+Imports: mcstate (>= 0.2.7), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.4.9)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 962de14a9dee8640290b0ee21f483f14
+NeedsCompilation: yes
+
+Package: sircovid2
+Version: 0.5.15
+Depends: R (>= 3.1.0)
+Imports: mcstate (>= 0.2.7), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.4.9)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: ef88e60840768d16930bc07d08952a0d
+NeedsCompilation: yes
+
+Package: sircovid2
+Version: 0.5.16
+Depends: R (>= 3.1.0)
+Imports: mcstate (>= 0.2.7), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.4.9)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: af443e5aacafe0385041c7db59f9b8a4
+NeedsCompilation: yes
+
+Package: sircovid2
+Version: 0.5.7
+Depends: R (>= 3.1.0)
+Imports: mcstate (>= 0.2.2), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.4.6)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: d4f4f0255ae9c93b164342562fddad21
+NeedsCompilation: yes
+
 Package: sowsear
 Version: 0.1-1
 Depends: R (>= 2.10)
 License: GPL (>= 2)
 MD5sum: de646d34496356bea87dc324072a9bf6
 NeedsCompilation: no
+
+Package: squire
+Version: 0.2.3
+Depends: R (>= 3.1.0)
+Imports: odin, dde, dplyr, tidyr, rlang, magrittr, purrr, crayon,
+        methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl
+License: MIT + file LICENSE
+MD5sum: 9c04ac52ccbaae5986c345e49f48dc68
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.3.0
+Depends: R (>= 3.1.0)
+Imports: odin, dde, dplyr, tidyr, rlang, magrittr, purrr, crayon,
+        methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl
+License: MIT + file LICENSE
+MD5sum: afc677cafe6346169d390a840afce654
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.3.1
+Depends: R (>= 3.1.0)
+Imports: odin, dde, dplyr, tidyr, rlang, magrittr, purrr, crayon,
+        methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl
+License: MIT + file LICENSE
+MD5sum: 3614e88ecc59287ba3f67c593bea8f77
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.1
+Depends: R (>= 3.1.0)
+Imports: odin, dde (>= 1.0.2), dplyr, tidyr, rlang, furrr, magrittr,
+        purrr, crayon, methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 82fc0bdbdce76c83b32d80cc9b7cda09
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.11
+Depends: R (>= 3.1.0)
+Imports: odin, dde (>= 1.0.2), dplyr, tidyr, rlang, furrr, magrittr,
+        purrr, crayon, methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 0cbf108999b578e3ee0a1061fddd51b1
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.12
+Depends: R (>= 3.1.0)
+Imports: odin, dde (>= 1.0.2), dplyr, tidyr, rlang, furrr, magrittr,
+        purrr, crayon, methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 83a1b045698bdd0e12951dd69c938d1b
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.13
+Depends: R (>= 3.1.0)
+Imports: odin, dde (>= 1.0.2), dplyr, tidyr, rlang, furrr, magrittr,
+        purrr, crayon, methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 10e096b7311ef43dd70cc7b38b497e33
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.15
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 85b99c74c86f60795f28e1da2a8a3eb4
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.16
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: fb088f8c46eebb9f9e0d5c27e8aae770
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.17
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: a96a5bedcd51138d8651418c2b397cf3
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.18
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: c8286a10e950cbfec85aed37fcb00bb2
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.19
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 405c8d65558698bc4a81c2dda53bacde
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.20
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 177c8dd30715692f24f9afea1f8f14ce
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.21
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 6dfc121810c214a2b2ca45a5f136aac8
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.22
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 01b6a5d2681a943baa8b8fcd21664b03
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.23
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: c5f113d31bcbb743e156de6691ee627d
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.24
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 1e576dc8dafff69185ae6e6507a39779
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.25
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 1922fc77b2d45a03a3db03b494795b1a
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.26
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 1a95b32e6ea7fd26fd59a11f52a554db
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.27
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: b324258008a7b2474ab8befd2eea27d2
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.28
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 5c240ab0196a65b4ddd0957b651471a5
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.29
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 1f2892793484fb490faffade8327e6a5
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.30
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 35eb71c8a12ffcc0faae4114f0710151
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.31
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.3), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: d9ca9a6f79485cce5046700cf29cec48
+NeedsCompilation: yes
 
 Package: squire
 Version: 0.4.34
@@ -204,6 +1503,54 @@ Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
 License: MIT + file LICENSE
 MD5sum: a6593e700795a24558b23599a852b25f
 NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.4
+Depends: R (>= 3.1.0)
+Imports: odin, dde (>= 1.0.2), dplyr, tidyr, rlang, furrr, magrittr,
+        purrr, crayon, methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 6d2237a17a569451c5f58b8edc4b32ac
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.5
+Depends: R (>= 3.1.0)
+Imports: odin, odin.js, dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: ea7569f02d9c780aacf57ffb90978507
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.8
+Depends: R (>= 3.1.0)
+Imports: odin, odin.js, dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 5841c7ed8ca53b4d2927fc4a4c40b617
+NeedsCompilation: yes
+
+Package: squire
+Version: 0.4.9
+Depends: R (>= 3.1.0)
+Imports: odin, dde (>= 1.0.2), dplyr, tidyr, rlang, furrr, magrittr,
+        purrr, crayon, methods, ggplot2
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 6462fbf167782b95b3e51cf77117ec91
+NeedsCompilation: yes
+
+Package: vaultr
+Version: 1.0.3
+Imports: R6, getPass, httr, jsonlite
+Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 6c545af53854a478ace6582e8d65313f
+NeedsCompilation: no
 
 Package: vaultr
 Version: 1.0.4
