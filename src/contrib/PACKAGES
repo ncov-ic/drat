@@ -793,7 +793,7 @@ Depends: R (>= 3.5.0)
 Imports: getPass, glue, httr, jsonlite, tools, xml2
 Suggests: mockery, testthat, tibble (>= 3.0.0), withr
 License: MIT + file LICENSE
-MD5sum: 4d86032df594003c9fe18d1eebc672a7
+MD5sum: a5f25615e373e4f67fb18eea92482783
 NeedsCompilation: no
 
 Package: projections
