@@ -877,6 +877,16 @@ MD5sum: d0cf72df1bdb2a19ce71d57b5c961ab8
 NeedsCompilation: yes
 
 Package: sircovid2
+Version: 0.5.22
+Depends: R (>= 3.5.0)
+Imports: mcstate (>= 0.2.7), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.4.9)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 8301543e50ef5daa21879727b7ff9126
+NeedsCompilation: yes
+
+Package: sircovid2
 Version: 0.5.7
 Depends: R (>= 3.1.0)
 Imports: mcstate (>= 0.2.2), socialmixr
