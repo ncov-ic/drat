@@ -240,6 +240,16 @@ License: MIT + file LICENSE
 MD5sum: cc8dea58abce20c38fa0f930c5e1518d
 NeedsCompilation: no
 
+Package: odin
+Version: 1.0.7
+Imports: R6, cinterpolate (>= 1.0.0), crayon, deSolve, digest,
+        jsonlite, ring
+Suggests: dde (>= 1.0.0), jsonvalidate (>= 1.1.0), knitr, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+MD5sum: 345097e4ef6d1e47894db0f2be2e8a8b
+NeedsCompilation: no
+
 Package: orderly.rstudio
 Version: 0.0.1
 Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
