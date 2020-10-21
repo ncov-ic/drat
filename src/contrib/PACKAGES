@@ -1325,6 +1325,15 @@ License: GPL (>= 2)
 MD5sum: de646d34496356bea87dc324072a9bf6
 NeedsCompilation: no
 
+Package: spud
+Version: 0.1.5
+Depends: R (>= 3.5.0)
+Imports: getPass, glue, httr, jsonlite, tools, xml2
+Suggests: mockery, testthat, tibble (>= 3.0.0), withr
+License: MIT + file LICENSE
+MD5sum: a14333cf1d174f05317220ce2fadbb22
+NeedsCompilation: no
+
 Package: squire
 Version: 0.2.3
 Depends: R (>= 3.1.0)
