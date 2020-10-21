@@ -12,7 +12,7 @@ mrc-ide/squire
 mrc-ide/odin.js
 mrc-ide/odin
 
-reside-ic/pointr
+reside-ic/spud
 richfitz/sowsear
 mrc-ide/pika
 reside-ic/fstorr
