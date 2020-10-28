@@ -160,6 +160,15 @@ MD5sum: d2d2ab3b2728eeb6ee4009e4ec525702
 NeedsCompilation: no
 
 Package: mcstate
+Version: 0.2.14
+Imports: R6, dust (>= 0.4.6), progress (>= 1.2.0)
+Suggests: brio, coda, decor, fs, knitr, mockery, mvtnorm, odin.dust (>=
+        0.0.9), rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: c34593f91352550c478e97d1d4a4417f
+NeedsCompilation: no
+
+Package: mcstate
 Version: 0.2.5
 Imports: R6, dust (>= 0.4.6), progress
 Suggests: brio, coda, decor, mvtnorm, testthat, tibble, vctrs, withr
