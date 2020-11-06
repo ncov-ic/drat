@@ -218,7 +218,7 @@ Version: 0.0.10
 Imports: R6, brio, cpp11, decor, dust (>= 0.4.13), odin, tibble, vctrs
 Suggests: dde, knitr, mockery, pkgload, rmarkdown, socialmixr, testthat
 License: MIT + file LICENSE
-MD5sum: a2c0cb44db44f8420ee40bfa87b11c70
+MD5sum: 07c03a23200c48b54cb3df440ec2a209
 NeedsCompilation: no
 
 Package: odin.dust
