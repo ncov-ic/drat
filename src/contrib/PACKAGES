@@ -1766,6 +1766,17 @@ License: MIT + file LICENSE
 MD5sum: 6462fbf167782b95b3e51cf77117ec91
 NeedsCompilation: yes
 
+Package: squire
+Version: 0.5.0
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.0.5), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
+        magrittr, purrr, crayon, methods, ggplot2, viridis, coda,
+        mvtnorm
+Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown
+License: MIT + file LICENSE
+MD5sum: c65e5548681036429304fd61fb92c7cc
+NeedsCompilation: yes
+
 Package: vaultr
 Version: 1.0.3
 Imports: R6, getPass, httr, jsonlite
