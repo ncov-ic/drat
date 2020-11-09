@@ -86,6 +86,16 @@ License: MIT + file LICENSE
 MD5sum: a85e171e8bce1b6befa5491bfca41faf
 NeedsCompilation: yes
 
+Package: dust
+Version: 0.5.3
+Imports: R6, cpp11 (>= 0.2.1), glue, pkgbuild, withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, pkgload, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+MD5sum: 1c671dbd756335190903de3d4b379e9c
+NeedsCompilation: yes
+
 Package: epidemia
 Version: 0.5.3
 Depends: R (>= 3.5.0)
