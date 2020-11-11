@@ -1482,6 +1482,16 @@ License: MIT + file LICENSE
 MD5sum: 39dc22203bc408181fc56ef1388bc021
 NeedsCompilation: yes
 
+Package: sircovid
+Version: 0.6.8
+Depends: R (>= 3.1.0)
+Imports: mcstate (>= 0.2.15), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.5.2)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: b4915e9834745f51bbbf4eef28ceb4fa
+NeedsCompilation: yes
+
 Package: sowsear
 Version: 0.1-1
 Depends: R (>= 2.10)
