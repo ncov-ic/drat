@@ -909,6 +909,14 @@ License: MIT + file LICENSE
 MD5sum: 2acd36ac4e234f8f138ce3623aa3201a
 NeedsCompilation: no
 
+Package: orderlyweb
+Version: 0.1.9
+Imports: R6, httr, jsonlite, orderly (>= 1.2.19), progress, zip
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: a5361337f384ed27d662c040f2d25f6d
+NeedsCompilation: no
+
 Package: pika
 Version: 0.0.0.9000
 Depends: R (>= 3.0.0)
