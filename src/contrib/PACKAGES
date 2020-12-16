@@ -300,7 +300,7 @@ Imports: R6, brio, cpp11, decor, dust (>= 0.5.3), odin (>= 1.1.2),
         tibble, vctrs
 Suggests: dde, knitr, mockery, pkgload, rmarkdown, socialmixr, testthat
 License: MIT + file LICENSE
-MD5sum: 64b71ca1d6f580987ba5667e48cf519b
+MD5sum: 61380ac58293a8c7a53185397303117c
 NeedsCompilation: no
 
 Package: odin.js
