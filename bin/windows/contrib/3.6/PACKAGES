@@ -87,6 +87,15 @@ Suggests: bench, brio, decor, fs, knitr, mockery, pkgload, rmarkdown,
 License: MIT + file LICENSE
 Archs: i386, x64
 
+Package: dust
+Version: 0.5.7
+Imports: R6, cpp11 (>= 0.2.1), glue, pkgbuild, withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, pkgload, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+Archs: i386, x64
+
 Package: sircovid2
 Version: 0.5.11
 Depends: R (>= 3.1.0)
