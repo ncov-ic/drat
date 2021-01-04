@@ -213,3 +213,12 @@ LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.5.6)
 Suggests: testthat
 License: MIT + file LICENSE
 MD5sum: 438ddd6aa4808b2bad9138d26c7e2e27
+
+Package: sircovid
+Version: 0.8.2
+Depends: R (>= 3.1.0)
+Imports: dust, mcstate (>= 0.2.15), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.5.6)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 30c32dcd1b597d6b86320ee5841eebae
