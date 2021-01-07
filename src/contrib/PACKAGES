@@ -332,6 +332,14 @@ MD5sum: 265c07a9c759fc31b6376fd11dbbb0f5
 NeedsCompilation: no
 
 Package: odin.js
+Version: 0.1.10
+Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 1.1.5)
+Suggests: cinterpolate, deSolve, testthat
+License: MIT + file LICENSE
+MD5sum: b2d7f9cfea32d4b4cda8669f70c129d9
+NeedsCompilation: no
+
+Package: odin.js
 Version: 0.1.7
 Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 0.2.0)
 Suggests: cinterpolate, deSolve, testthat
