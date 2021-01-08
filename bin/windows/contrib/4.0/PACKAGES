@@ -276,3 +276,12 @@ LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.5.7)
 Suggests: testthat
 License: MIT + file LICENSE
 Archs: i386, x64
+
+Package: sircovid
+Version: 0.9.1
+Depends: R (>= 3.1.0)
+Imports: dust, mcstate (>= 0.2.15), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.5.7)
+Suggests: testthat
+License: MIT + file LICENSE
+Archs: i386, x64
