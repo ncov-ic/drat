@@ -1,4 +1,13 @@
 Package: dust
+Version: 0.5.10
+Imports: R6, cpp11 (>= 0.2.1), glue, pkgbuild, withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, pkgload, rmarkdown,
+        testthat
+License: MIT + file LICENSE
+MD5sum: b46786140a653e40f0f662630ac23f3d
+
+Package: dust
 Version: 0.5.5
 Imports: R6, cpp11 (>= 0.2.1), glue, pkgbuild, withr
 LinkingTo: cpp11
