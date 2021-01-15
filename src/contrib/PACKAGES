@@ -1007,7 +1007,7 @@ Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
 Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
         testthat, vaultr (>= 1.0.4)
 License: MIT + file LICENSE
-MD5sum: dbe6699ab2508abc2eb079ee3b2153af
+MD5sum: 4acf37e479c5defefaaed94ef2fd8e37
 NeedsCompilation: no
 
 Package: orderly
