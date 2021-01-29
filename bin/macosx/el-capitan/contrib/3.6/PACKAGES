@@ -79,6 +79,15 @@ Suggests: bench, brio, decor, fs, knitr, mockery, pkgload, rmarkdown,
 License: MIT + file LICENSE
 MD5sum: 2e124b71c3b8898ff74bf3ee72fe9d75
 
+Package: dust
+Version: 0.7.0
+Imports: R6, cpp11 (>= 0.2.6), glue, pkgbuild (>= 1.2.0), pkgload,
+        withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 17e7fa66cd21a909275b2bc990bedb95
+
 Package: sircovid2
 Version: 0.5.23
 Depends: R (>= 3.1.0)
@@ -294,6 +303,15 @@ LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.6.0)
 Suggests: testthat
 License: MIT + file LICENSE
 MD5sum: b800937a2d8b26bd473f08f82f456366
+
+Package: sircovid
+Version: 0.9.13
+Depends: R (>= 3.1.0)
+Imports: dust (>= 0.7.0), mcstate (>= 0.4.0), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.6.0)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 48459cf35abc7db9041987b9be7f2e58
 
 Package: sircovid
 Version: 0.9.2
