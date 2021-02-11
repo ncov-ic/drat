@@ -1204,6 +1204,16 @@ MD5sum: 4acf37e479c5defefaaed94ef2fd8e37
 NeedsCompilation: no
 
 Package: orderly
+Version: 1.2.23
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 973d06de1c21b572275798223d211663
+NeedsCompilation: no
+
+Package: orderly
 Version: 1.2.3
 Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
         withr, yaml, zip (>= 2.0.0)
