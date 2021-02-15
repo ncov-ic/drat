@@ -526,6 +526,16 @@ License: MIT + file LICENSE
 MD5sum: 20ca0428381d488db83462ba2bb0136f
 NeedsCompilation: no
 
+Package: mcstate
+Version: 0.4.7
+Imports: R6, callr (>= 3.5.1), dust (>= 0.7.9), processx, progress (>=
+        1.2.0)
+Suggests: brio, coda, decor, fs, knitr, mockery, mvtnorm, odin.dust (>=
+        0.1.11), rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 4da007280a321d406e71b902311d4f80
+NeedsCompilation: no
+
 Package: odin.dust
 Version: 0.0.10
 Imports: R6, brio, cpp11, decor, dust (>= 0.4.13), odin, tibble, vctrs
