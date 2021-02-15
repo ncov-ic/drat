@@ -255,6 +255,16 @@ License: MIT + file LICENSE
 MD5sum: 2940e8c039c10087fbca192059572cf7
 NeedsCompilation: yes
 
+Package: dust
+Version: 0.7.8
+Imports: R6, cpp11 (>= 0.2.6), glue, pkgbuild (>= 1.2.0), pkgload,
+        withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: ae49d94417e5cc065a3a97ec9ec9116f
+NeedsCompilation: yes
+
 Package: eigen1
 Version: 0.1.0
 Suggests: testthat
