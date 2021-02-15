@@ -124,6 +124,12 @@ Suggests: bench, brio, decor, fs, knitr, mockery, rmarkdown, testthat
 License: MIT + file LICENSE
 MD5sum: 4076903cdb788afbf279b70cff76b392
 
+Package: eigen1
+Version: 0.1.0
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 8e67b0eedbf3085db64ce01be84f2def
+
 Package: sircovid2
 Version: 0.5.22
 Depends: R (>= 3.1.0)
