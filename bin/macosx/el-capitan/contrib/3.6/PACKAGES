@@ -107,6 +107,15 @@ License: MIT + file LICENSE
 MD5sum: 4055c78de18a3958a3a138ee24060ca6
 
 Package: dust
+Version: 0.7.17
+Imports: R6, cpp11 (>= 0.2.6), glue, pkgbuild (>= 1.2.0), pkgload,
+        withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 58c86be23fd5d2f083a6a60eb3fa5245
+
+Package: dust
 Version: 0.7.2
 Imports: R6, cpp11 (>= 0.2.6), glue, pkgbuild (>= 1.2.0), pkgload,
         withr
