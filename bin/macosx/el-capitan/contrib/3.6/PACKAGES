@@ -176,6 +176,15 @@ License: MIT + file LICENSE
 MD5sum: 856b93ada730e5b152b00a43c28ee3ed
 
 Package: sircovid
+Version: 0.10.0
+Depends: R (>= 3.1.0)
+Imports: dust (>= 0.7.13), eigen1, mcstate (>= 0.4.0), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.7.13)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 3e860e45f47a68740f17d964ef1fc2c2
+
+Package: sircovid
 Version: 0.6.0
 Depends: R (>= 3.1.0)
 Imports: mcstate (>= 0.2.7), socialmixr
