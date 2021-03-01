@@ -1713,6 +1713,16 @@ MD5sum: e5b950e07cb720d89bcdb3657bdc8698
 NeedsCompilation: yes
 
 Package: sircovid
+Version: 0.10.1
+Depends: R (>= 3.5.0)
+Imports: dust (>= 0.7.13), eigen1, mcstate (>= 0.4.0), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.7.13)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 4e8b109a9f6354471c4b25ba1201125d
+NeedsCompilation: yes
+
+Package: sircovid
 Version: 0.2.0
 Depends: R (>= 3.5.0)
 Imports: dde (>= 1.0.2), odin, socialmixr
