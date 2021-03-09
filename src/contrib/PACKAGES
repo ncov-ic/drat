@@ -597,6 +597,16 @@ MD5sum: 582bc2f251d34c97974ed94a16c5e219
 NeedsCompilation: no
 
 Package: mcstate
+Version: 0.5.10
+Imports: R6, callr (>= 3.5.1), dust (>= 0.7.9), processx, progress (>=
+        1.2.0)
+Suggests: brio, coda, decor, fs, knitr, mockery, mvtnorm, odin.dust (>=
+        0.1.11), rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 39fc47a2ddde5c15b62649394be8a13d
+NeedsCompilation: no
+
+Package: mcstate
 Version: 0.5.6
 Imports: R6, callr (>= 3.5.1), dust (>= 0.7.9), processx, progress (>=
         1.2.0)
