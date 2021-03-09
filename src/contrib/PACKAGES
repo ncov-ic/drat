@@ -756,6 +756,15 @@ License: MIT + file LICENSE
 MD5sum: 30978b92c34a1a0ccbb2fe22395e91db
 NeedsCompilation: no
 
+Package: odin.dust
+Version: 0.2.2
+Imports: R6, brio, cpp11, decor, dust (>= 0.8.0), odin (>= 1.1.7),
+        tibble, vctrs
+Suggests: dde, knitr, mockery, pkgload, rmarkdown, socialmixr, testthat
+License: MIT + file LICENSE
+MD5sum: 14cc1430630db39f5676c22552f77bb8
+NeedsCompilation: no
+
 Package: odin.js
 Version: 0.1.10
 Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 1.1.5)
