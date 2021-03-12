@@ -973,6 +973,15 @@ License: MIT + file LICENSE
 MD5sum: 5f1a10cce1da96b57a0b0c3233dad160
 NeedsCompilation: no
 
+Package: orderly.rstudio
+Version: 0.0.3
+Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly (>= 1.2.30),
+        rstudioapi (>= 0.5), shiny (>= 0.13), withr
+Suggests: mockery, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 1dad1f167d6fa6edabf44fa319eb2509
+NeedsCompilation: no
+
 Package: orderly.sharepoint
 Version: 0.1.0
 Imports: orderly (>= 1.1.32), pointr (>= 0.1.4), zip
