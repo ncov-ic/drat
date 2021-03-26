@@ -686,6 +686,16 @@ License: MIT + file LICENSE
 MD5sum: ac729974af93082b682ccd30cdf52865
 NeedsCompilation: no
 
+Package: nimue
+Version: 0.1.14
+Depends: R (>= 3.1.0)
+Imports: odin (>= 1.1.0), squire (>= 0.5.7), dplyr, magrittr, abind,
+        rlang, ggplot2, tidyr
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 33536931e4c811c0e629cfbe808c4ec4
+NeedsCompilation: yes
+
 Package: odin.dust
 Version: 0.0.10
 Imports: R6, brio, cpp11, decor, dust (>= 0.4.13), odin, tibble, vctrs
