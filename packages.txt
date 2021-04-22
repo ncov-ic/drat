@@ -9,6 +9,7 @@ annecori/EpiEstim@release
 mrc-ide/sircovid
 mrc-ide/dde
 mrc-ide/squire
+mrc-ide/nimue
 mrc-ide/odin.js
 mrc-ide/odin
 
@@ -24,3 +25,8 @@ mrc-ide/dust
 mrc-ide/mcstate
 mrc-ide/odin.dust
 mrc-ide/eigen1
+
+mrc-ide/rincewind
+sangeetabhatia03/assessr
+mrc-ide/weighter
+sangeetabhatia03/ascertainr
