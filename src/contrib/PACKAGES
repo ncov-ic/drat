@@ -382,6 +382,13 @@ License: MIT + file LICENSE
 MD5sum: 4b1240e520057db41e43686f6a3d91b6
 NeedsCompilation: yes
 
+Package: eigen1
+Version: 0.1.1
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: b450b5b50aec83a3ee6de2bb345a44a0
+NeedsCompilation: yes
+
 Package: epidemia
 Version: 0.5.3
 Depends: R (>= 3.5.0)
