@@ -9,6 +9,13 @@ License: GPL (>= 2)
 MD5sum: a7e8adbf6635979a8af5763d3c00f67c
 NeedsCompilation: no
 
+Package: ascertainr
+Version: 0.0.0.9000
+Imports: epitrix
+License: MIT + file LICENSE
+MD5sum: e8078bf0bdec8796915a4ed6d3dcc8e7
+NeedsCompilation: no
+
 Package: assessr
 Version: 1.0.0
 Suggests: testthat, covr
