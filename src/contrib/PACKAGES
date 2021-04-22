@@ -1858,6 +1858,15 @@ License: MIT + file LICENSE
 MD5sum: d447cb2ab544ccd09176bf73d112e2dd
 NeedsCompilation: no
 
+Package: rincewind
+Version: 1.3.0
+Depends: R (>= 2.10)
+Imports: dplyr, ggdist, ggplot2, glue, incidence, purrr, rlang,
+        snakecase, slider, tibble, tidyr
+License: MIT + file LICENSE
+MD5sum: 116ee3bc2c0fc53fa29689acce88ddcb
+NeedsCompilation: no
+
 Package: sircovid2
 Version: 0.5.11
 Depends: R (>= 3.1.0)
