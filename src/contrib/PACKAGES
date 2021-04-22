@@ -9,6 +9,13 @@ License: GPL (>= 2)
 MD5sum: a7e8adbf6635979a8af5763d3c00f67c
 NeedsCompilation: no
 
+Package: assessr
+Version: 1.0.0
+Suggests: testthat, covr
+License: MIT + file LICENSE
+MD5sum: 489afb9a62e8421e3ea696c2c1205b93
+NeedsCompilation: no
+
 Package: cyphr
 Version: 1.1.0
 Imports: getPass, openssl (>= 0.9.9), sodium
