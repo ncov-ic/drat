@@ -274,6 +274,12 @@ Suggests: testthat
 License: MIT + file LICENSE
 Archs: i386, x64
 
+Package: eigen1
+Version: 0.1.1
+Suggests: testthat
+License: MIT + file LICENSE
+Archs: i386, x64
+
 Package: sircovid2
 Version: 0.5.17
 Depends: R (>= 3.1.0)
@@ -476,6 +482,16 @@ Archs: i386, x64
 
 Package: sircovid
 Version: 0.10.38
+Depends: R (>= 3.1.0)
+Imports: dust (>= 0.8.18), eigen1, mcstate (>= 0.4.0), socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.8.18)
+Suggests: EpiEstim, distcrete, mockery, odin (>= 1.1.12), odin.dust (>=
+        0.2.5), testthat
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: sircovid
+Version: 0.10.39
 Depends: R (>= 3.1.0)
 Imports: dust (>= 0.8.18), eigen1, mcstate (>= 0.4.0), socialmixr
 LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.8.18)
