@@ -3540,3 +3540,10 @@ Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
 License: MIT + file LICENSE
 MD5sum: 3b4c690157c5aa4e88dd29ac83b50c09
 NeedsCompilation: no
+
+Package: weighter
+Version: 0.0.1
+Suggests: covr, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+MD5sum: 52050b2f2b9eb8e9b6be20313a7d4d2a
+NeedsCompilation: no
