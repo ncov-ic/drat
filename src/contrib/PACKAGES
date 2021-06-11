@@ -2080,6 +2080,15 @@ MD5sum: 78a1fca33160247ac79e0c56761faa38
 NeedsCompilation: no
 
 Package: rincewind
+Version: 1.4.1
+Depends: R (>= 2.10)
+Imports: assessr, dplyr, ggdist, ggplot2, glue, incidence, purrr,
+        rlang, snakecase, slider, tibble, tidyr
+License: MIT + file LICENSE
+MD5sum: 445308f05f0ed6abf3cdb34c062930f3
+NeedsCompilation: no
+
+Package: rincewind
 Version: 1.4
 Depends: R (>= 2.10)
 Imports: assessr, dplyr, ggdist, ggplot2, glue, incidence, purrr,
