@@ -268,6 +268,15 @@ Suggests: bench, brio, decor, fs, knitr, mockery, rmarkdown, testthat
 License: MIT + file LICENSE
 MD5sum: 1bc5f7ae14db090de210e856e5a57fde
 
+Package: dust
+Version: 0.9.5
+Imports: R6, cpp11 (>= 0.2.6), glue, pkgbuild (>= 1.2.0), pkgload,
+        withr
+LinkingTo: cpp11
+Suggests: bench, brio, decor, fs, knitr, mockery, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 702d34d31c721bfc97cda006a91b2198
+
 Package: eigen1
 Version: 0.1.0
 Suggests: testthat
