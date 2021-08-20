@@ -25,6 +25,7 @@ mrc-ide/dust
 mrc-ide/mcstate
 mrc-ide/odin.dust
 mrc-ide/eigen1
+mrc-ide/spimalot
 
 mrc-ide/rincewind
 sangeetabhatia03/assessr
