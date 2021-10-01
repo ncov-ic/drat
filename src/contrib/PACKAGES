@@ -1163,10 +1163,10 @@ NeedsCompilation: no
 
 Package: odin.js
 Version: 0.1.11
-Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 1.1.5)
+Imports: R6 (>= 2.4.0), V8, jsonlite, odin (>= 1.2.2)
 Suggests: cinterpolate, deSolve, testthat
 License: MIT + file LICENSE
-MD5sum: ea57db9e8ce35d31cdc687804a55bffb
+MD5sum: 84ce9b8cf288e1f465a2cfce31e5debf
 NeedsCompilation: no
 
 Package: odin.js
