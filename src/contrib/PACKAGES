@@ -2124,6 +2124,16 @@ License: MIT + file LICENSE
 MD5sum: aa49bc1372c467ebb5439fac7ce815f9
 NeedsCompilation: no
 
+Package: orderly
+Version: 1.4.3
+Imports: DBI, R6, RSQLite (>= 2.2.4), crayon, digest, docopt, fs (>=
+        1.2.7), gert, ids, withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, markdown, mockery, processx,
+        rmarkdown, testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 63bb295023da9eaf4d5949c9755ac761
+NeedsCompilation: no
+
 Package: orderlyweb
 Version: 0.1.10
 Imports: R6, gert, httr, jsonlite, orderly (>= 1.2.19), progress, zip
