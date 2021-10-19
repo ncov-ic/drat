@@ -968,7 +968,7 @@ Imports: odin (>= 1.1.0), squire (>= 0.6.5), dde (>= 1.0.2), dplyr,
         magrittr, abind, rlang, ggplot2, tidyr, purrr
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: b683e9cbf6944e6545164b0df6696dc8
+MD5sum: c37f30432dbc7c6062fc3760a7514121
 NeedsCompilation: yes
 
 Package: odin.dust
