@@ -3235,6 +3235,18 @@ MD5sum: 75e059ef496a5a03798b4edb8ae96fc5
 NeedsCompilation: yes
 
 Package: sircovid
+Version: 0.12.21
+Depends: R (>= 3.1.0)
+Imports: dust (>= 0.11.19), eigen1 (>= 0.1.1), mcstate (>= 0.6.16),
+        socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.11.19)
+Suggests: EpiEstim, distcrete, mockery, odin (>= 1.1.12), odin.dust (>=
+        0.2.15), testthat
+License: MIT + file LICENSE
+MD5sum: 2178a26141702a70c3483e100bc6f433
+NeedsCompilation: yes
+
+Package: sircovid
 Version: 0.12.5
 Depends: R (>= 3.1.0)
 Imports: dust (>= 0.10.0), eigen1 (>= 0.1.1), mcstate (>= 0.6.8),
