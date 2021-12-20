@@ -1080,6 +1080,16 @@ License: MIT + file LICENSE
 MD5sum: da190f52a288bb23cae1fdb2a0c9c95a
 NeedsCompilation: no
 
+Package: mcstate
+Version: 0.7.2
+Imports: R6, callr (>= 3.7.0), dust (>= 0.11.20), processx, progress
+        (>= 1.2.0)
+Suggests: brio, coda, decor, fs, knitr, mockery, mvtnorm, odin.dust (>=
+        0.2.14), rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 579be901790dc11ebf87636190cccb78
+NeedsCompilation: no
+
 Package: nimue
 Version: 0.1.14
 Depends: R (>= 3.1.0)
