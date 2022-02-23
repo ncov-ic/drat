@@ -1418,6 +1418,15 @@ MD5sum: 914922d8cdb32eff12691d76f3be4d22
 NeedsCompilation: no
 
 Package: odin.dust
+Version: 0.2.16
+Imports: R6, brio, cpp11, decor, dust (>= 0.11.14), odin (>= 1.1.10),
+        tibble, vctrs
+Suggests: dde, knitr, mockery, pkgload, rmarkdown, socialmixr, testthat
+License: MIT + file LICENSE
+MD5sum: 55049627f40d979dafcf2e77800e2dc3
+NeedsCompilation: no
+
+Package: odin.dust
 Version: 0.2.2
 Imports: R6, brio, cpp11, decor, dust (>= 0.8.0), odin (>= 1.1.7),
         tibble, vctrs
