@@ -4846,6 +4846,19 @@ License: MIT + file LICENSE
 MD5sum: e534b5ae747feaf234c07c3c50af51a7
 NeedsCompilation: no
 
+Package: spimalot
+Version: 0.7.1
+Depends: R (>= 3.5.0)
+Imports: EpiEstim, Hmisc, abind, coda, distr6, dplyr, dust (>=
+        0.11.20), epitrix, extrafont, ggnewscale, ggplot2, ggsci,
+        ggthemes, khroma, lubridate, matrixStats, mcstate (>= 0.8.3),
+        patchwork, readxl, reshape2, sircovid (>= 0.13.1), stringr,
+        tdigest, tibble, tidyr, viridisLite, writexl
+Suggests: digest, mockery, rrq, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 3c683b700d9b5072a00a97876ddf8767
+NeedsCompilation: no
+
 Package: spud
 Version: 0.1.5
 Depends: R (>= 3.5.0)
