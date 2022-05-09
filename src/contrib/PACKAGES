@@ -2634,6 +2634,14 @@ MD5sum: 49a5cbfac9a741611b41c386237d6f85
 NeedsCompilation: no
 
 Package: orderlyweb
+Version: 0.1.13
+Imports: R6, gert, httr, jsonlite, orderly (>= 1.2.19), progress, zip
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 0be7c2a72e5078ddbef1f453165f0bb1
+NeedsCompilation: no
+
+Package: orderlyweb
 Version: 0.1.3
 Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
 Suggests: mockery, testthat
