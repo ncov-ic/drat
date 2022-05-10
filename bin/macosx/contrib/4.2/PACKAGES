@@ -8,3 +8,14 @@ Suggests: EpiEstim, distcrete, mockery, odin (>= 1.1.16), odin.dust (>=
         0.2.15), testthat
 License: MIT + file LICENSE
 MD5sum: 12786e4c68ec59279072f11b710f7032
+
+Package: sircovid
+Version: 0.13.15
+Depends: R (>= 3.1.0)
+Imports: dust (>= 0.11.26), eigen1 (>= 0.1.1), mcstate (>= 0.8.4),
+        socialmixr
+LinkingTo: cpp11 (>= 0.2.1), dust (>= 0.11.26)
+Suggests: EpiEstim, distcrete, mockery, odin (>= 1.1.16), odin.dust (>=
+        0.2.15), testthat
+License: MIT + file LICENSE
+MD5sum: c8cc398807d19d82e1ed2feeb042f034
