@@ -1305,6 +1305,14 @@ License: MIT + file LICENSE
 MD5sum: 839626df326689dc1bd39d075b6cab85
 NeedsCompilation: no
 
+Package: mode
+Version: 0.1.6
+Imports: R6, cpp11, dust, glue, pkgbuild (>= 1.2.0), pkgload
+Suggests: decor, dde, mockery, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 409e8a8ab2a391bb12a56a798a04e3ae
+NeedsCompilation: no
+
 Package: nimue
 Version: 0.1.14
 Depends: R (>= 3.1.0)
