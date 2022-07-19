@@ -119,6 +119,16 @@ License: MIT + file LICENSE
 Archs: i386, x64
 
 Package: dust
+Version: 0.11.29
+Imports: R6, cpp11 (>= 0.2.6), glue, pkgbuild (>= 1.2.0), pkgload,
+        withr
+LinkingTo: cpp11
+Suggests: bench, brio, callr, decor, fs, knitr, mockery, rmarkdown,
+        testthat (>= 3.0.0)
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: dust
 Version: 0.11.6
 Imports: R6, cpp11 (>= 0.2.6), glue, pkgbuild (>= 1.2.0), pkgload,
         withr

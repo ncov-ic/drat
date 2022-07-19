@@ -8,6 +8,16 @@ Suggests: bench, brio, decor, fs, knitr, mockery, rmarkdown, testthat
 License: MIT + file LICENSE
 MD5sum: b3b86b8a7f2960cf0f1c5f6e02ca74e0
 
+Package: dust
+Version: 0.11.29
+Imports: R6, cpp11 (>= 0.2.6), glue, pkgbuild (>= 1.2.0), pkgload,
+        withr
+LinkingTo: cpp11
+Suggests: bench, brio, callr, decor, fs, knitr, mockery, rmarkdown,
+        testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 411b3c7a4e71c05971a89574773320c5
+
 Package: sircovid
 Version: 0.13.13
 Depends: R (>= 3.1.0)
