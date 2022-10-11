@@ -6091,7 +6091,7 @@ Imports: odin (>= 1.2.4), dde (>= 1.0.2), dplyr, tidyr, rlang, furrr,
 Suggests: testthat (>= 2.1.0), covr, readxl, knitr, odin.js, rmarkdown,
         mockery
 License: MIT + file LICENSE
-MD5sum: f1cd8f65b07e34e919bee2d25516797c
+MD5sum: 611d4e411077312d1432222f85fa1d39
 NeedsCompilation: yes
 
 Package: vaultr
