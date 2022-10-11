@@ -6098,6 +6098,14 @@ License: MIT + file LICENSE
 MD5sum: c292fd6b63ac8d952b8b3b8c8776334b
 NeedsCompilation: no
 
+Package: vaultr
+Version: 1.1.1
+Imports: R6, getPass, httr, jsonlite
+Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 6ded70555554d4387a9074b47cf2d996
+NeedsCompilation: no
+
 Package: weighter
 Version: 0.0.1
 Suggests: covr, testthat (>= 2.1.0)
