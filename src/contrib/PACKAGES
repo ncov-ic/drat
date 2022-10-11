@@ -3046,7 +3046,7 @@ Depends: R (>= 2.10)
 Imports: assessr, dplyr, ggdist, ggplot2, glue, incidence, purrr,
         rlang, snakecase, slider, tibble, tidyr
 License: MIT + file LICENSE
-MD5sum: 8a6fd341d4962b4306358f745be0d226
+MD5sum: ba2ce43fd4eb87b6ffcbd7127b9e4cd7
 NeedsCompilation: no
 
 Package: rincewind
