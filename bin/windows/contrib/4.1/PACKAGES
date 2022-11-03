@@ -194,6 +194,12 @@ Suggests: bench, brio, decor, fs, knitr, mockery, rmarkdown, testthat
 License: MIT + file LICENSE
 Archs: i386, x64
 
+Package: eigen1
+Version: 0.1.3
+Suggests: testthat
+License: MIT + file LICENSE
+Archs: i386, x64
+
 Package: sircovid
 Version: 0.11.11
 Depends: R (>= 3.1.0)
