@@ -58,6 +58,16 @@ Suggests: bench, brio, callr, decor, fs, knitr, mockery, rmarkdown,
 License: MIT + file LICENSE
 Archs: x64
 
+Package: dust
+Version: 0.12.2
+Imports: R6, cpp11 (>= 0.2.6), glue, pkgbuild (>= 1.2.0), pkgload,
+        withr
+LinkingTo: cpp11
+Suggests: bench, brio, callr, decor, fs, knitr, mockery, rmarkdown,
+        testthat (>= 3.0.0)
+License: MIT + file LICENSE
+Archs: x64
+
 Package: eigen1
 Version: 0.1.3
 Suggests: testthat
