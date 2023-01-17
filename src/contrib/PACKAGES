@@ -1436,6 +1436,15 @@ MD5sum: 08293e786ee73f1083691244c388aeeb
 NeedsCompilation: no
 
 Package: mode
+Version: 0.1.12
+Imports: R6, cpp11, dust (>= 0.11.32), glue, pkgbuild (>= 1.2.0),
+        pkgload
+Suggests: callr, decor, dde, mockery, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: ae32ccf4185b03de327c657c9306b431
+NeedsCompilation: no
+
+Package: mode
 Version: 0.1.4
 Imports: R6, cpp11, dust, glue, pkgbuild (>= 1.2.0), pkgload
 Suggests: decor, dde, mockery, testthat (>= 3.0.0)
