@@ -5902,6 +5902,19 @@ MD5sum: 9504de34aa3b7dd626886dac5f37e620
 NeedsCompilation: no
 
 Package: spimalot
+Version: 0.8.21
+Depends: R (>= 3.5.0)
+Imports: EpiEstim, Hmisc, abind, coda, distr6, dplyr, dust (>= 0.12.0),
+        epitrix, extrafont, ggnewscale, ggplot2, ggsci, ggthemes,
+        khroma, lubridate, matrixStats, mcstate (>= 0.9.12), patchwork,
+        readxl, reshape2, sircovid (>= 0.14.8), stringr, tdigest,
+        tibble, tidyr, viridisLite, writexl
+Suggests: digest, mockery, rrq, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 7084d2dcbb3717bd85be5b3f55ffbba0
+NeedsCompilation: no
+
+Package: spimalot
 Version: 0.8.3
 Depends: R (>= 3.5.0)
 Imports: EpiEstim, Hmisc, abind, coda, distr6, dplyr, dust (>=
